@@ -10,5 +10,6 @@
    "editor.suggest.maxVisibleSuggestions": 1,
    "editor.fastScrollSensitivity": 3,
    "files.trimFinalNewlines": true,
-   "editor.wordWrap": "bounded"
+   "editor.wordWrap": "bounded",
+   "editor.hideCursorInOverviewRuler": true
 }
