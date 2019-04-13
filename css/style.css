@@ -363,6 +363,7 @@ span {
 
 .section-title {
 	text-align: center;
+	margin-bottom: 29px;
 }
 
 .section-title h2 {
@@ -423,4 +424,5 @@ span {
 	font-size: 15px;
 }
 
+.servicess-row{padding: 15px 0px;}
 /* services-area ends */
