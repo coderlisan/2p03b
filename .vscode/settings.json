@@ -1,0 +1,14 @@
+{
+   "editor.trimAutoWhitespace": false,
+   "workbench.tips.enabled": false,
+   "editor.hover.enabled": false,
+   "explorer.openEditors.visible": 0,
+   "editor.wordWrapColumn": 1000,
+   "html.format.wrapLineLength": 500,
+   "editor.renderWhitespace": "boundary",
+   "editor.scrollBeyondLastColumn": 3,
+   "editor.suggest.maxVisibleSuggestions": 1,
+   "editor.fastScrollSensitivity": 3,
+   "files.trimFinalNewlines": true,
+   "editor.wordWrap": "bounded"
+}

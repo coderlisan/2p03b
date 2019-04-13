@@ -1,0 +1,426 @@
+/* header section */
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu {}
+
+.main-menu ul {
+	padding: 50px 0px;
+	float: right;
+}
+
+.header-area {
+	border-top: 5px solid #506ac7;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	margin-left: 40px;
+	position: relative
+}
+
+.main-menu ul li a {
+	color: #666;
+	font-size: 15px;
+	font-family: serif;
+	display: block
+}
+
+.main-menu ul li a:hover {
+	color: #4272d7
+}
+
+/* submenu */
+
+.main-menu ul li ul.submenu {
+	position: absolute;
+	border-top: 3px solid #4272d7;
+	width: 260px;
+	background: #171a21;
+	padding: 0px;
+	margin: 50px 0px;
+	transition: .3s;
+	opacity: 0;
+	visibility: hidden;
+	left: 0;
+	top: 110%;
+	z-index: 9999;
+}
+
+.main-menu ul li:hover ul.submenu {
+	opacity: 1;
+	visibility: visible;
+	top: 100%
+}
+
+.main-menu ul li ul.submenu li {
+	display: block;
+	margin: 0;
+	border-bottom: 2px solid #1e2128;
+}
+
+.main-menu ul li ul.submenu li:last-child {
+	border: 0px
+}
+
+.main-menu ul li ul.submenu li a {
+	padding: 15px 20px;
+	color: white;
+	font-size: 12px;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.main-menu ul li ul.submenu li a:hover {
+	background: #4272d7;
+	padding-left: 30px
+}
+
+/* sub submenu */
+
+.main-menu ul li ul.submenu li ul.submenu {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	opacity: 0;
+	visibility: hidden;
+	margin: 0;
+}
+
+.main-menu ul li ul.submenu li:hover>ul.submenu {
+	opacity: 1;
+	visibility: visible
+}
+
+.main-menu ul li ul.submenu li:hover>ul.submenu {}
+
+.main-menu ul li ul.submenu li:hover>a {
+	background: #4272d7
+}
+
+/* mega menu */
+
+.main-menu ul li .mega-menu {
+	position: absolute;
+	width: 400px;
+	background: #171a21;
+	top: 110%;
+	left: 0%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+	margin: 50px 0px;
+	z-index: 9999;
+}
+
+.main-menu ul li:hover .mega-menu {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+
+.main-menu ul li .mega-menu ul {
+	float: left;
+	width: 50%;
+	text-align: center
+}
+
+.main-menu ul li .mega-menu ul:last-child {
+	padding-right: 0
+}
+
+.main-menu ul li .mega-menu ul li {
+	margin: 0;
+	display: block;
+	border-bottom: 2px solid #1e2128
+}
+
+.main-menu ul li .mega-menu ul li a {
+	padding: 15px 20px;
+	color: #ffffff;
+	font-size: 12px;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.main-menu ul li .mega-menu ul li a:hover {
+	background: #4272d7;
+	padding-left: 30px
+}
+
+/* search-icon */
+
+.search-icon {
+	margin-top: 50px;
+	margin-left: 50px;
+	position: relative;
+	padding-left: 25px;
+	margin-left: 25px;
+}
+
+.search-icon::before {
+	background: #cccccc;
+	height: 15px;
+	width: 2px;
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 3px
+}
+
+.logo {
+	float: left;
+	margin-top: 41px;
+}
+
+/* header section */
+
+/* slider area start */
+
+.slider-area {
+	position: relative;
+}
+
+.single-slider {
+	background-image: url(../imgs/Lisan/IMG_10371.JPG.jpg);
+	padding: 175px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.single-slider h2 {
+	font-size: 72px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.single-slider h4 {
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.single-slider a {
+	padding: 20px 40px;
+	background-color: #4372D5;
+	margin-top: 40px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 50px;
+	top: 40%;
+	background: #e7c2c2;
+	width: 25px;
+	height: 25px;
+}
+
+.owl-next {
+	position: absolute;
+	top: 40%;
+	right: 50px;
+	background: #e7c2c2;
+	width: 25px;
+	height: 25px;
+}
+
+.owl-dots {
+	color: red;
+	z-index: 9999;
+	display: inline-block;
+	left: 45%;
+	position: absolute;
+	bottom: 7%;
+}
+
+.owl-dot {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-color: #fbeeee;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.owl-dot.active {
+	background-color: #45c862 !important
+}
+
+/* slider area ends */
+
+/* CTA area start */
+
+.cta-area {
+	background: #4272d7;
+	padding: 30px;
+}
+
+.contant-rew {
+	text-align: end;
+}
+
+.col-8 p {
+	text-align: left;
+	margin: 0;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+}
+
+span {
+	font-size: 30px;
+}
+
+.cta-button a {
+	border: 2px solid #fff;
+	display: inline-block;
+	padding: 17px 45px;
+	box-sizing: border-box;
+	font-weight: 700;
+	text-decoration: none;
+	background: #4272d7;
+	color: #fff;
+}
+
+.cta-area .container {
+	padding: 0;
+}
+
+/* CTA area ends */
+
+/* features area start */
+
+.features-area {
+	margin: 70px 0px;
+}
+
+.single-features {
+	position: relative;
+	overflow: hidden;
+}
+
+.single-features:hover .features-content {
+	transform: translateY(0)
+}
+
+.features-img {}
+
+.features-icon {
+	margin-bottom: 30px;
+}
+
+.features-icon .fa {
+	color: #fff;
+	font-size: 17px;
+}
+
+.features-content {
+	background: #507bd6;
+	padding: 30px;
+	transition: .3s;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translateY(66%);
+	/*! transform: translateX(20%); */
+}
+
+.features-content p {
+	line-height: 25px;
+	color: #e5e5e5;
+}
+
+.features-content a {
+	display: inline-block;
+	color: #fff;
+	margin-top: 4px;
+}
+
+.features-content h3 {
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 20px;
+	color: #fff;
+}
+
+/* features area ends */
+
+/* services-area start */
+
+.services-area {
+	padding: 70px 0px;
+	background: #f0f0f0;
+}
+
+.section-title {
+	text-align: center;
+}
+
+.section-title h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	font-weight: 800;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.section-title h2:before {
+	position: absolute;
+	width: 64px;
+	height: 2px;
+	content: "";
+	background: #5493d1;
+	top: 100%;
+	margin: auto;
+	left: 28%;
+}
+
+.single-services {
+	display: flex;
+}
+
+.services-icon {}
+
+.services-icon .fa {
+	width: 50px;
+	height: 50px;
+	background: #4272d7;
+	font-size: 17px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+}
+
+.services-icon p {
+	display: inline-block;
+}
+
+.services-content {
+	margin-left: 25px;
+}
+
+.services-content h3 {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	color: #555555;
+}
+
+.services-content p {
+	color: #555;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+/* services-area ends */
