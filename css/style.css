@@ -185,7 +185,7 @@ ul {
 }
 
 .single-slider {
-	background-image: url(../imgs/Lisan/IMG_10371.JPG.jpg);
+	background-image: url(../imgs/col4.jpg);
 	padding: 175px 0;
 	text-align: center;
 	width: 100%;
@@ -424,5 +424,64 @@ span {
 	font-size: 15px;
 }
 
-.servicess-row{padding: 15px 0px;}
+.servicess-row {
+	padding: 15px 0px;
+}
+
 /* services-area ends */
+
+/* project area start */
+
+.project-area {padding: 70px 0px;background: #222222;}
+
+.project-wrapper {
+	position: relative;
+}
+
+.project-wrapper:hover .project-thumb::before {
+	opacity: 1;
+}
+
+.project-wrapper:hover .project-content {
+	opacity: 1;
+	visibility: visible
+}
+
+.project-thumb::before {
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	background: #4272d7;
+	transition: .3s;
+	opacity: 0;
+}
+
+.project-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	text-align: center;
+	right: 0%;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.project-content h4 a {
+	font-size: 15px;
+	font-weight: 700;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 8px;
+}
+
+.project-content span {
+	font-size: 15px;
+	color: #cccccc;
+}
+.text-white{color: white}
+.section-title .text-white::before {background: #ffffff}
+.section-title .text-white{text-transform: uppercase}
+/* project area ends */
