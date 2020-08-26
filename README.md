@@ -1,3 +1,1 @@
-# 2p1b
-It's one of my psd file to html
-Selim Rana Vai er Fedex project
+এটি আমার করা PSD to HTML ফাইল সেলিম রানা ভাই এর থেকে নেওয়া PSD
